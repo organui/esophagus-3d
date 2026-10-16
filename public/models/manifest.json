@@ -1,0 +1,439 @@
+{
+  "dataset": "BodyParts3D / Anatomography",
+  "version": "4.3",
+  "variant": "Object set 4.3, ontology tree FMA3.0; official IS-A concept-to-element mapping",
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-SA-2.1-JP",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "sourceLicenseStatement": "https://lifesciencedb.jp/bp3d/info/index.html#License",
+  "credit": "BodyParts3D / Anatomography, © The Database Center for Life Science. CC BY-SA 2.1 Japan. Adapted by OrganUI.",
+  "mirror": {
+    "repository": "https://github.com/olivercase/body_parts_3d_api",
+    "commit": "fd527e6f4daf732fd814314d9257df5877b844bc"
+  },
+  "mapping": {
+    "file": "docs/model-source/FMA2Obj-4.3.tsv",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+  },
+  "transform": {
+    "sourceBoundsMm": {
+      "min": [
+        -50.4117,
+        -194.37,
+        946.779
+      ],
+      "max": [
+        105.524,
+        -42.8769,
+        1500.28
+      ]
+    },
+    "centerMm": [
+      27.55615,
+      -118.62345,
+      1223.5295
+    ],
+    "scale": 0.01,
+    "axes": "[x, z, -y]"
+  },
+  "runtime": {
+    "file": "esophagus.glb",
+    "bytes": 4001332,
+    "sha256": "aaa25402214981b7decad5c997240b01f4d5a34fa9580895dc66811611666bf0"
+  },
+  "structures": [
+    {
+      "id": "esophagus",
+      "fma": "FMA7131",
+      "concepts": [
+        "FMA7131"
+      ],
+      "sourceName": "esophagus",
+      "elements": [
+        {
+          "element": "FJ2563",
+          "concept": "FMA7131",
+          "sourceName": "Esophagus",
+          "sha256": "4dd22252e8c28e1c6f2bbc6c2fc7ce6b9613518ff9cbd38f43cb856f189d3417",
+          "bytes": 35525,
+          "vertices": 323,
+          "triangles": 578
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "fma": "FMA7148",
+      "concepts": [
+        "FMA7148"
+      ],
+      "sourceName": "stomach",
+      "elements": [
+        {
+          "element": "FJ2564",
+          "concept": "FMA7148",
+          "sourceName": "Stomach",
+          "sha256": "7dbab763e256f4cbbbb38417cf0a306eb62a46ae177fa728a613476dd77a063b",
+          "bytes": 106610,
+          "vertices": 914,
+          "triangles": 1810
+        }
+      ]
+    },
+    {
+      "id": "trachea",
+      "fma": "FMA7394",
+      "concepts": [
+        "FMA7394"
+      ],
+      "sourceName": "trachea",
+      "elements": [
+        {
+          "element": "FJ2541",
+          "concept": "FMA7394",
+          "sourceName": "Trachea",
+          "sha256": "a070da7f54750cdeb3d169f13f0f2f0c0c420c253aba9c3ce42fecc36cb4c799",
+          "bytes": 320579,
+          "vertices": 2607,
+          "triangles": 4996
+        }
+      ]
+    },
+    {
+      "id": "main-bronchi",
+      "fma": "FMA7395",
+      "concepts": [
+        "FMA7395",
+        "FMA7396"
+      ],
+      "sourceName": "right and left main bronchi",
+      "elements": [
+        {
+          "element": "FJ6583",
+          "concept": "FMA7395",
+          "sourceName": "Right main bronchus",
+          "sha256": "1c6232e43c7b153a275f274d1a71f82d3a5a5049693579e9e5a8b56a3b128bfc",
+          "bytes": 301741,
+          "vertices": 2592,
+          "triangles": 4468
+        },
+        {
+          "element": "FJ6533",
+          "concept": "FMA7396",
+          "sourceName": "Left main bronchus",
+          "sha256": "cb361618c33118d493ad332b5804c32bea9f0873c8006da7bf5394feb11f342f",
+          "bytes": 270666,
+          "vertices": 2293,
+          "triangles": 4136
+        }
+      ]
+    },
+    {
+      "id": "thyroid-gland",
+      "fma": "FMA13368",
+      "concepts": [
+        "FMA13368",
+        "FMA13369",
+        "FMA49178"
+      ],
+      "sourceName": "right and left lobes and isthmus of thyroid gland",
+      "elements": [
+        {
+          "element": "FJ3672",
+          "concept": "FMA13368",
+          "sourceName": "Right lobe of thyroid gland",
+          "sha256": "579d28267ec22b2536878fe2c78947f812d60e3ce3b9e5621f1faab7ce6f63f2",
+          "bytes": 1453612,
+          "vertices": 15183,
+          "triangles": 5061
+        },
+        {
+          "element": "FJ3671",
+          "concept": "FMA13369",
+          "sourceName": "Left lobe of thyroid gland",
+          "sha256": "2a137c718b0f7f6150978730c78f9003db6dce5324e31ba5cb368d6ce7f57c58",
+          "bytes": 1338937,
+          "vertices": 14223,
+          "triangles": 4741
+        },
+        {
+          "element": "FJ3670",
+          "concept": "FMA49178",
+          "sourceName": "Isthmus of thyroid gland",
+          "sha256": "798a3b54f78eb3cc20f118b914202855e003b252a7e479f022fe1c2d6b9b14c0",
+          "bytes": 493303,
+          "vertices": 5238,
+          "triangles": 1746
+        }
+      ]
+    },
+    {
+      "id": "left-atrium",
+      "fma": "FMA9531",
+      "concepts": [
+        "FMA9531"
+      ],
+      "sourceName": "wall of left atrium",
+      "elements": [
+        {
+          "element": "FJ2438",
+          "concept": "FMA9531",
+          "sourceName": "Wall of left atrium",
+          "sha256": "17544b1214ea0626f9564aeb42b5bb9d52a126f22237a499f8de0eca6073d8a7",
+          "bytes": 509716,
+          "vertices": 4284,
+          "triangles": 7544
+        }
+      ]
+    },
+    {
+      "id": "aortic-arch",
+      "fma": "FMA3768",
+      "concepts": [
+        "FMA3768"
+      ],
+      "sourceName": "arch of aorta",
+      "elements": [
+        {
+          "element": "FJ3411",
+          "concept": "FMA3768",
+          "sourceName": "Arch of aorta",
+          "sha256": "6b72258bcc413abbcf6193e11575933d08f3ba960b52a7b8462a7b0ccb4607eb",
+          "bytes": 41378,
+          "vertices": 381,
+          "triangles": 670
+        }
+      ]
+    },
+    {
+      "id": "descending-aorta",
+      "fma": "FMA3784",
+      "concepts": [
+        "FMA3784"
+      ],
+      "sourceName": "descending aorta",
+      "elements": [
+        {
+          "element": "FJ3427",
+          "concept": "FMA3784",
+          "sourceName": "Descending aorta",
+          "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
+          "bytes": 288865,
+          "vertices": 2351,
+          "triangles": 4562
+        }
+      ]
+    },
+    {
+      "id": "esophageal-arteries",
+      "fma": "FMA4149",
+      "concepts": [
+        "FMA4149",
+        "FMA71537"
+      ],
+      "sourceName": "esophageal artery and set of oesophageal branches of thoracic aorta",
+      "elements": [
+        {
+          "element": "FJ1934",
+          "concept": "FMA4149",
+          "sourceName": "Esophageal artery",
+          "sha256": "208dfb7a01ebc01e62d0cbe5a5c0f33628d61b49747cc4bab357db86c6240f1a",
+          "bytes": 72552,
+          "vertices": 727,
+          "triangles": 1010
+        },
+        {
+          "element": "FJ3431",
+          "concept": "FMA71537",
+          "sourceName": "Set of oesophageal branches of thoracic aorta",
+          "sha256": "ac2e63540ac0db86b14bf6608871459162aa9c122ffb0583c7264f2824e6b633",
+          "bytes": 93736,
+          "vertices": 925,
+          "triangles": 1338
+        }
+      ]
+    },
+    {
+      "id": "inferior-thyroid-arteries",
+      "fma": "FMA10697",
+      "concepts": [
+        "FMA10697",
+        "FMA10680"
+      ],
+      "sourceName": "right and left inferior thyroid arteries",
+      "elements": [
+        {
+          "element": "FJ2209",
+          "concept": "FMA10697",
+          "sourceName": "Right inferior thyroid artery",
+          "sha256": "e725a12ac6a4ddc0acab89940e4eb1e376814bd42a75628655965affea13790b",
+          "bytes": 31978,
+          "vertices": 311,
+          "triangles": 482
+        },
+        {
+          "element": "FJ2210",
+          "concept": "FMA10680",
+          "sourceName": "Left inferior thyroid artery",
+          "sha256": "a3c7a4f6a9b705e1c870b32b8871dd1a0b676587103d3e8b7282c854d47b9c8d",
+          "bytes": 31180,
+          "vertices": 302,
+          "triangles": 480
+        }
+      ]
+    },
+    {
+      "id": "left-gastric-artery",
+      "fma": "FMA14768",
+      "concepts": [
+        "FMA14768"
+      ],
+      "sourceName": "left gastric artery",
+      "elements": [
+        {
+          "element": "FJ3499",
+          "concept": "FMA14768",
+          "sourceName": "Left gastric artery",
+          "sha256": "c1ad6e0234f8feb9a2b5576033d174c2e519bb69129e7ee9e239deee15833b13",
+          "bytes": 65682,
+          "vertices": 578,
+          "triangles": 1100
+        }
+      ]
+    },
+    {
+      "id": "azygos-vein",
+      "fma": "FMA4838",
+      "concepts": [
+        "FMA4838"
+      ],
+      "sourceName": "azygos vein",
+      "elements": [
+        {
+          "element": "FJ3416",
+          "concept": "FMA4838",
+          "sourceName": "Azygos vein",
+          "sha256": "ffd96b33a9eeaf229f25d3dd2eb9caecd399124255c2245d289ae92efdba42e4",
+          "bytes": 1185447,
+          "vertices": 9132,
+          "triangles": 18260
+        }
+      ]
+    },
+    {
+      "id": "hemiazygos-veins",
+      "fma": "FMA4944",
+      "concepts": [
+        "FMA4944",
+        "FMA5011"
+      ],
+      "sourceName": "hemiazygos vein and accessory hemiazygos vein",
+      "elements": [
+        {
+          "element": "FJ3434",
+          "concept": "FMA4944",
+          "sourceName": "Hemiazygos vein",
+          "sha256": "d6a7695382586ae3fd1428c1ccd6388d63546c5650a468af9dc72cc6b4fa4bf4",
+          "bytes": 265441,
+          "vertices": 2135,
+          "triangles": 4266
+        },
+        {
+          "element": "FJ1981",
+          "concept": "FMA5011",
+          "sourceName": "Accessory hemiazygos vein",
+          "sha256": "c95a574262a97c80f578f37ad98a8d57c4c865c074c69383dfaf6750544e1ce9",
+          "bytes": 282824,
+          "vertices": 2268,
+          "triangles": 4532
+        }
+      ]
+    },
+    {
+      "id": "left-gastric-vein",
+      "fma": "FMA15399",
+      "concepts": [
+        "FMA15399"
+      ],
+      "sourceName": "left gastric vein",
+      "elements": [
+        {
+          "element": "FJ3500",
+          "concept": "FMA15399",
+          "sourceName": "Left gastric vein",
+          "sha256": "495350daaedc3223dddc30f06241e9d2839d54afba2943150bb33448d2fa8282",
+          "bytes": 73269,
+          "vertices": 672,
+          "triangles": 1166
+        }
+      ]
+    },
+    {
+      "id": "right-vagus-nerve",
+      "fma": "FMA18151",
+      "concepts": [
+        "FMA18151"
+      ],
+      "sourceName": "trunk of right vagus nerve",
+      "elements": [
+        {
+          "element": "FJ4024",
+          "concept": "FMA18151",
+          "sourceName": "Trunk of right vagus nerve",
+          "sha256": "be374d656c6ec642a93681673744d0330b06d70a84d0dd53bcd3dcde870284df",
+          "bytes": 1651782,
+          "vertices": 12608,
+          "triangles": 24790
+        }
+      ]
+    },
+    {
+      "id": "left-vagus-nerve",
+      "fma": "FMA18157",
+      "concepts": [
+        "FMA18157"
+      ],
+      "sourceName": "trunk of left vagus nerve",
+      "elements": [
+        {
+          "element": "FJ3926",
+          "concept": "FMA18157",
+          "sourceName": "Trunk of left vagus nerve",
+          "sha256": "d9a723878f9fc77ca8e82778dcbd08a40fc27b5d3880c404f30747f854d3074c",
+          "bytes": 1963465,
+          "vertices": 14820,
+          "triangles": 29372
+        }
+      ]
+    },
+    {
+      "id": "recurrent-laryngeal-nerves",
+      "fma": "FMA80694",
+      "concepts": [
+        "FMA80694",
+        "FMA80695"
+      ],
+      "sourceName": "trunks of right and left recurrent laryngeal nerves",
+      "elements": [
+        {
+          "element": "FJ4021",
+          "concept": "FMA80694",
+          "sourceName": "Trunk of right recurrent laryngeal nerve",
+          "sha256": "788f9eee2f853038749d9de7f7158d31666ccdc292143ba661afad7047de5fac",
+          "bytes": 157643,
+          "vertices": 1302,
+          "triangles": 2596
+        },
+        {
+          "element": "FJ3923",
+          "concept": "FMA80695",
+          "sourceName": "Trunk of left recurrent laryngeal nerve",
+          "sha256": "d7a4d859120d395bc487b1ceb87f46d4e5157926802371da94ec9e2edc5a8164",
+          "bytes": 315416,
+          "vertices": 2538,
+          "triangles": 5008
+        }
+      ]
+    }
+  ]
+}
